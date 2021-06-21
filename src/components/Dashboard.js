@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col, Button } from 'react-bootstrap'
-import TicketTable from './TicketTable'
+import TicketTable from '../features/tickets/TicketTable'
 import tickets from '../assets/data/dummy-tickets.json'
 import Breadcrumbs from './Breadcrumbs'
 
