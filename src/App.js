@@ -1,5 +1,6 @@
 
 import './App.css';
+import Dashboard from './components/Dashboard';
 
 
 import EntryPage from './components/EntryPage';
@@ -10,7 +11,7 @@ function App() {
     <div className="App">
       {/* <EntryPage/> */}
       <DefaultLayout>
-        Send page components
+        <Dashboard />
       </DefaultLayout>
     </div>
   );
