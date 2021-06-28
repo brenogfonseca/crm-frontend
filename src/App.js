@@ -5,7 +5,9 @@ import Dashboard from './components/Dashboard';
 
 import EntryPage from './components/EntryPage';
 import DefaultLayout from './layout/DefaultLayout';
-import Tickets from './features/tickets/Tickets';
+import CreateTicket from './features/tickets/CreateTicket';
+import ListTickets from './features/tickets/ListTickets';
+import Ticket from './features/tickets/Ticket';
 
 function App() {
   return (
@@ -13,7 +15,9 @@ function App() {
       {/* <EntryPage/> */}
       <DefaultLayout>
         {/* <Dashboard /> */}
-        <Tickets />
+        {/* <CreateTicket /> */}
+        {/* <ListTickets /> */}
+        <Ticket />
       </DefaultLayout>
     </div>
   );

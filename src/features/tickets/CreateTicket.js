@@ -4,7 +4,7 @@ import Breadcrumbs from '../../components/Breadcrumbs'
 import './tickets.css'
 import TicketForm from './TicketForm'
 
-export default function Tickets() {
+export default function CreateTicket() {
   return (
     <Container>
       <Row>

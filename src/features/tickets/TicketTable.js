@@ -16,7 +16,7 @@ export default function TicketTable({ tickets }) {
         {tickets.length ? tickets.map(row =>
           <tr key={row.id} >
             <td>{row.id}</td>
-            <td>ssl issue</td>
+            <td>{row.subject}</td>
             <td>{row.status}</td>
             <td>{row.addedAt}</td>
           </tr>

@@ -1,51 +1,83 @@
 [
   {
     "id": 1,
+    "subject": "Issue with ssl certificate",
     "status": "Client response pending",
-    "addedAt": "2021-06-18"
+    "addedAt": "2021-06-18",
+    "messages": [
+      {
+        "date": "2021-06-28",
+        "text": "lorem episulum lorem episulum lorem episulum lorem episulumlorem episulum",
+        "messageBy": "client"
+      },
+      {
+        "date": "2021-06-28",
+        "text": "lorem episulum lorem episulum lorem episulum lorem episulumlorem episulum",
+        "messageBy": "client"
+      },
+      {
+        "date": "2021-06-28",
+        "text": "lorem episulum lorem episulum lorem episulum lorem episulumlorem episulum",
+        "messageBy": "client"
+      },
+      {
+        "date": "2021-06-28",
+        "text": "lorem episulum lorem episulum lorem episulum lorem episulumlorem episulum",
+        "messageBy": "client"
+      }
+    ]
   },
   {
     "id": 2,
+    "subject": "Issue with ssl certificate",
     "status": "Client response pending",
     "addedAt": "2021-06-18"
   },
   {
     "id": 3,
+    "subject": "Issue with ssl certificate",
     "status": "Client response pending",
     "addedAt": "2021-06-18"
   },
   {
     "id": 4,
+    "subject": "Issue with ssl certificate",
     "status": "Client response pending",
     "addedAt": "2021-06-18"
   },
   {
     "id": 5,
+    "subject": "Issue with ssl certificate",
     "status": "Client response pending",
     "addedAt": "2021-06-18"
   },
   {
     "id": 6,
+    "subject": "Issue with ssl certificate",
     "status": "Client response pending",
     "addedAt": "2021-06-18"
   },
   {
     "id": 7,
+    "subject": "Issue with ssl certificate",
     "status": "Client response pending",
     "addedAt": "2021-06-18"
   },
   {
     "id": 8,
+    "subject": "Issue with ssl certificate",
     "status": "Client response pending",
     "addedAt": "2021-06-18"
   },
   {
     "id": 9,
+    "subject": "Issue with ssl certificate",
     "status": "Client response pending",
     "addedAt": "2021-06-18"
   },
   {
     "id": 10,
+    "subject": "Issue with ssl certificate",
     "status": "Client response pending",
     "addedAt": "2021-06-18"
   }
