@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Row, Col, Button } from 'react-bootstrap'
 import { useSelector } from 'react-redux'
+import { Link } from 'react-router-dom'
 import Breadcrumbs from '../../components/Breadcrumbs'
 import SearchForm from '../search/SearchForm'
 import { selectFilteredTickets } from './ticketsSlice'
@@ -18,7 +19,9 @@ export default function ListTickets() {
       </Row>
       <Row className="mt-4" >
         <Col>
-          <Button variant="info">Add New Ticket</Button>
+          <Link to="/create-ticket" >
+            <Button variant="info">Add New Ticket</Button>
+          </Link>
         </Col>
         <Col className="text-right" >
           <SearchForm />

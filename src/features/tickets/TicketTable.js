@@ -1,5 +1,6 @@
 import React from 'react'
 import { Table } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 export default function TicketTable({ tickets }) {
   return (
@@ -13,12 +14,14 @@ export default function TicketTable({ tickets }) {
         </tr>
       </thead>
       <tbody>
-        {tickets.length ? tickets.map(row =>
-          <tr key={row.id} >
-            <td>{row.id}</td>
-            <td>{row.subject}</td>
-            <td>{row.status}</td>
-            <td>{row.addedAt}</td>
+        {tickets.length ? tickets.map(ticket =>
+          <tr key={ticket.id} >
+            <td>{ticket.id}</td>
+            <Link to={`/ticket/${ticket.id}`} >
+              <td>{ticket.subject}</td>
+            </Link>
+            <td>{ticket.status}</td>
+            <td>{ticket.addedAt}</td>
           </tr>
         ) :
           <tr>

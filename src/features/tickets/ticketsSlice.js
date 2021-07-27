@@ -23,7 +23,7 @@ export const selectTickets = (state) => state.tickets
 export const selectFilteredTickets = (state) => {
   const tickets = selectTickets(state)
   const searchTerm = selectSearch(state)
-  return tickets.filter(ticket => {
+  return tickets.tickets.filter(ticket => {
     return ticket.subject.toLowerCase().includes(searchTerm.toLowerCase())
   }
   )

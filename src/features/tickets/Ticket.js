@@ -1,14 +1,18 @@
 import React from 'react'
 import { Button, Col, Container, Row } from 'react-bootstrap'
 import { useSelector } from 'react-redux'
+import { useParams } from 'react-router-dom'
 import Breadcrumbs from '../../components/Breadcrumbs'
 import CreateTicketMessage from './CreateTicketMessage'
 import TicketMessage from './TicketMessage'
 import { selectTickets } from './ticketsSlice'
 
 export default function Ticket() {
+  const { tId } = useParams()
   const { tickets } = useSelector(selectTickets)
-  const ticket = tickets[0]
+  const ticket = tickets.find(ticket => {
+    return ticket.id == tId
+  })
   return (
     <Container>
       <Row>
